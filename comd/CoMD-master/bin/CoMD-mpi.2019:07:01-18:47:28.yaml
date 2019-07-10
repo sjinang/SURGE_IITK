@@ -1,0 +1,36 @@
+
+Mini-Application Name    : CoMD-mpi
+Mini-Application Version : 1.1
+Platform:
+  hostname: csews1
+  kernel name: 'Linux'
+  kernel release: '4.15.0-50-generic'
+  processor: 'x86_64'
+Build:
+  CC: '/users/misc/sjinang/mpich-install/bin/mpicc'
+  compiler version: 'gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0'
+  CFLAGS: '-std=c99 -DDOUBLE -DDO_MPI -g -O5   -I/users/misc/sjinang/papi-install/include'
+  LDFLAGS: ' -lm /users/misc/sjinang/papi-install/lib/libpapi.a'
+  using MPI: true
+  Threading: none
+  Double Precision: true
+Run Date/Time: 2019-07-01, 18:47:28
+
+Command Line Parameters:
+  doeam: 0
+  potDir: pots
+  potName: Cu_u6.eam
+  potType: funcfl
+  nx: 20
+  ny: 20
+  nz: 20
+  xproc: 1
+  yproc: 7
+  zproc: 6
+  Lattice constant: -1 Angstroms
+  nSteps: 100
+  printRate: 10
+  Time step: 1 fs
+  Initial Temperature: 600 K
+  Initial Delta: 0 Angstroms
+
