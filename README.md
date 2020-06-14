@@ -3,4 +3,10 @@
 
 # Results:
 
-[correlation](https://sites.google.com/view/sjinang/)
+##### *correlation chart for MiniFE dataset*
+![](/MiniFE_Full.png)
+
+##### *correlation chart for COMD dataset*
+![](/CoMD_Full.png)
+
+### for more on results you may refer to PP_O.pdf file
